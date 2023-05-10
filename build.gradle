@@ -17,15 +17,15 @@ repositories {
 }
 
 dependencies {
-	implementation 'com.android.support:support-v4:18.0.+'
+	implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 31
 
     defaultConfig {
-        targetSdkVersion 26
-        minSdkVersion = 8      
+        targetSdkVersion 31
+        minSdkVersion 8
     }
 
     sourceSets {
